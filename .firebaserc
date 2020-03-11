@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "palchattt"
+  },
+  "targets": {
+    "palchattt": {
+      "hosting": {
+        "pc-public": [
+          "palchat-public"
+        ]
+      }
+    }
+  }
+}

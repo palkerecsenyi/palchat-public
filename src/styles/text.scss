@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Nunito', sans-serif;
+}
+
+.Big {
+  font-size: 3rem;
+}
+
+.White {
+  color: white;
+}
+
+.No-Margin {
+  margin: 0;
+}
+
+.No-Margin-Bottom {
+  margin-bottom: 0;
+}
+
+.Block {
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+
+  @media only screen and (max-width: 768px) {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  @media only screen and (max-width: 425px) {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+.Smallprint {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
