@@ -17,11 +17,17 @@ function App() {
                 Which is why PalChat is about sharing genuine moments with your friends in real life.
             </p>
 
+            <p className='White No-Margin-Bottom Block'>
+                <a href='https://app.getbeamer.com/palchat/en' target='_blank'>
+                    Release notes
+                </a>
+            </p>
+
             <div className='Row'>
                 <div>
                     <a target='_blank'
                        rel='noopener noreferrer'
-                       href='https://play.google.com/store/apps/details?id=com.palchat&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                       href='https://play.google.com/apps/testing/rocks.PalChat'
                     >
                         <img
                             alt='Get it on Google Play'
@@ -48,6 +54,10 @@ function App() {
 
             <p className='Smallprint White'>
                 Google Play and the Google Play logo are trademarks of Google LLC.
+            </p>
+
+            <p className='Smallprint White'>
+                PalChat Technologies Limited is a registered company in England (12615227)
             </p>
         </div>
     );
